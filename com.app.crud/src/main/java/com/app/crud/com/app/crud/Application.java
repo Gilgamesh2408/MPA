@@ -1,13 +1,13 @@
-package com.example.crudMpa;
+package com.app.crud.com.app.crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudMpaApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudMpaApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
