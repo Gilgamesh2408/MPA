@@ -1,5 +1,7 @@
 package com.app.crud.com.app.crud.entidad;
 
+import javax.persistence.Column;
+import javax.persistence.GenerationType;
 import javax.persistence.Entity;
 import javax.persistence.GenerateValue;
 import javax.persistence.Id;
