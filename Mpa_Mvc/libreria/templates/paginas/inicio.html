@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block titulo %} Inicio {% endblock %}
+
+{% block contenido %} 
+ 
+<div class="p-5 bg-light" >
+    <div class="container">
+        <h1 class="display-4 text-success mb-4 shadow p-3 mb-5 bg-white rounded">INGRESA EL NUEVO LIBRO A LA BASE DE DATOS</h1>
+        <p class="lead">Ingresa el nombre del libro</p>
+        <hr class="my-2">
+        
+        <p class="lead">
+            <a class="btn btn-success btn-lg" href="{% url 'libros' %}" role="button">Empezar</a>
+        </p>   
+    </div>
+</div>
+
+{% endblock %}
